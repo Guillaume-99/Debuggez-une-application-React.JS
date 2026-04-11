@@ -9,11 +9,7 @@
             "description": "Présentation des nouveaux usages UX.",
             "nb_guesses": 900,
             "periode": "14-15-16 Avril",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "1 espace de restaurations"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "1 espace de restaurations"]
         },
         {
             "id": 2,
@@ -24,11 +20,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "1 site web dédié"]
         },
         {
             "id": 3,
@@ -39,11 +31,7 @@
             "description": "Débats et échanges autour des collaborations eco-responsable.",
             "nb_guesses": 600,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 scéne principale",
-                "1 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 scéne principale", "1 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 4,
@@ -54,12 +42,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 5,
@@ -70,12 +53,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 6,
@@ -86,12 +64,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 7,
@@ -102,12 +75,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 8,
@@ -118,12 +86,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 9,
@@ -134,12 +97,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 10,
@@ -150,12 +108,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 11,
@@ -166,12 +119,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 12,
@@ -182,12 +130,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 13,
@@ -198,12 +141,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 14,
@@ -214,12 +152,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 15,
@@ -230,14 +163,9 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
-        { 
+        {
             "id": 16,
             "type": "conférence",
             "date": "2022-04-29T20:28:45.744Z",
@@ -246,12 +174,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 17,
@@ -262,12 +185,7 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         },
         {
             "id": 18,
@@ -278,28 +196,26 @@
             "description": "Présentation des outils analytics aux professionnels du secteur ",
             "nb_guesses": 1300,
             "periode": "24-25-26 Février",
-            "prestations": [
-                "1 espace d’exposition",
-                "1 scéne principale",
-                "2 espaces de restaurations",
-                "1 site web dédié"
-            ]
+            "prestations": ["1 espace d’exposition", "1 scéne principale", "2 espaces de restaurations", "1 site web dédié"]
         }
     ],
     "focus": [
         {
+            "id": 1,
             "title": "World economic forum",
             "description": "Oeuvre à la coopération entre le secteur public et le privé.",
             "date": "2022-01-29T20:28:45.744Z",
             "cover": "/images/evangeline-shaw-nwLTVwb7DbU-unsplash1.png"
         },
         {
+            "id": 2,
             "title": "Nordic design week",
             "description": "Conférences sur le design de demain dans le digital",
             "date": "2022-03-29T20:28:45.744Z",
             "cover": "/images/teemu-paananen-bzdhc5b3Bxs-unsplash1.png"
         },
         {
+            "id": 3,
             "title": "Sneakercraze market",
             "description": "Rencontres de spécialistes des Sneakers Européens.",
             "date": "2022-05-29T20:28:45.744Z",
