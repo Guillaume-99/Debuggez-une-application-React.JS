@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 import EventCard from "../../components/EventCard";
 import Select from "../../components/Select";
 import { useData } from "../../contexts/DataContext";
@@ -9,12 +10,12 @@ import "./style.css";
 
 const PER_PAGE = 9;
 
-const EventList = () => {
+const EventList = ({excludedId}) => {
     const { data, error } = useData();
     const [type, setType] = useState();
     const [currentPage, setCurrentPage] = useState(1);
 
-    const filteredEventsByType = (data?.events || []).filter((event) => !type || event.type === type);
+    const filteredEventsByType = (data?.events || []).filter((event) => !type || event.type === type).filter((event) => event.id !== excludedId);
 
     const filteredEvents = filteredEventsByType.filter((event, index) => {
         if ((currentPage - 1) * PER_PAGE <= index && PER_PAGE * currentPage > index) {
@@ -22,6 +23,8 @@ const EventList = () => {
         }
         return false;
     });
+
+
 
     const changeType = (evtType) => {
         setCurrentPage(1);
@@ -58,6 +61,14 @@ const EventList = () => {
             )}
         </>
     );
+};
+
+EventList.propTypes = {
+  excludedId: PropTypes.number,
+};
+
+EventList.defaultProps = {
+  excludedId: null,
 };
 
 export default EventList;
