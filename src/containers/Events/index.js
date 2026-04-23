@@ -14,7 +14,7 @@ const EventList = ({excludedId}) => {
     const { data, error } = useData();
     const [type, setType] = useState();
     const [currentPage, setCurrentPage] = useState(1);
-
+    // Fix: filtre des événements
     const filteredEventsByType = (data?.events || []).filter((event) => !type || event.type === type).filter((event) => event.id !== excludedId);
 
     const filteredEvents = filteredEventsByType.filter((event, index) => {

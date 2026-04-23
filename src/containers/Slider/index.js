@@ -7,7 +7,9 @@ import "./style.scss";
 const Slider = () => {
     const { data } = useData();
     const [index, setIndex] = useState(0);
+    // fix: Slider, Ordre décroissant date
     const byDateDesc = data?.focus?.sort((evtA, evtB) => (new Date(evtB.date) < new Date(evtA.date) ? -1 : 1));
+    // fix: Slider longueur image
     const nextCard = () => {
         setTimeout(() => setIndex(index < (byDateDesc?.length ?? 0) - 1 ? index + 1 : 0), 5000);
     };
@@ -17,6 +19,7 @@ const Slider = () => {
     return (
         <div className="SlideCardList">
             {byDateDesc?.map((event, idx) => (
+                // fix: Slider key  
                 <Fragment key={event.id}>
                     <div className={`SlideCard SlideCard--${index === idx ? "display" : "hide"}`}>
                         <img src={event.cover} alt="forum" />
@@ -31,6 +34,7 @@ const Slider = () => {
                     <div className="SlideCard__paginationContainer">
                         <div className="SlideCard__pagination">
                             {byDateDesc.map((radioEvent, radioIdx) => (
+                                // fix: Slider bouton checked index
                                 <input key={radioEvent.id} type="radio" name="radio-button" checked={index === radioIdx} readOnly />
                             ))}
                         </div>

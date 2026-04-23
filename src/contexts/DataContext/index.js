@@ -31,6 +31,7 @@ export const DataProvider = ({ children }) => {
             value={{
                 data,
                 error,
+                // fix: Data def last décroissant
                 last: data?.events?.sort((evtA, evtB) => (new Date(evtB.date) < new Date(evtA.date) ? -1 : 1))[0],
             }}
         >
