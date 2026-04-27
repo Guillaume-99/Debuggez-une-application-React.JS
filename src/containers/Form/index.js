@@ -28,20 +28,21 @@ const Form = ({ onSuccess, onError }) => {
         },
         [onSuccess, onError],
     );
+    // Fix: formulaire de contact champ requis
     return (
         <form onSubmit={sendContact}>
             <div className="row">
                 <div className="col">
-                    <Field placeholder="Votre nom" label="Nom" />
-                    <Field placeholder="Votre prénom" label="Prénom" />
-                    <Select selection={["Personel", "Entreprise"]} onChange={() => setSending(true)} label="Personel / Entreprise" type="large" titleEmpty />
-                    <Field placeholder="Votre email" label="Email" />
+                    <Field placeholder="Votre nom" label="Nom" required />
+                    <Field placeholder="Votre prénom" label="Prénom" required />
+                    <Select selection={["Personel", "Entreprise"]} onChange={() => {}} label="Personel / Entreprise" type="large" titleEmpty required />
+                    <Field placeholder="Votre email" label="Email" required />
                     <Button type={BUTTON_TYPES.SUBMIT} disabled={sending}>
                         {sending ? "En cours" : "Envoyer"}
                     </Button>
                 </div>
                 <div className="col">
-                    <Field placeholder="Votre message" label="Message" type={FIELD_TYPES.TEXTAREA} />
+                    <Field placeholder="Votre message" label="Message" type={FIELD_TYPES.TEXTAREA} required />
                 </div>
             </div>
         </form>
